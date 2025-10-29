@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Women’s Fashion</title>
+  <meta name="description" content=" Premium women's clothing. Shop dresses, tops, and ethnic wear .">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo"><img src="logo.png" width="30px" height="30px"></div>
+        <div>
+          <div class="brand-name">Women’s</div>
+          <div class="brand-sub"> Fashion</div>
+        </div>
+      </div>
+
+      <nav id="mainNav">
+        <a href="#home" data-target="home" class="active">Home</a>
+        <a href="#about" data-target="about">About Us</a>
+        <a href="#shop" data-target="shop">Shop</a>
+        <a href="#contact" data-target="contact">Contact</a>
+        <a href="#terms" data-target="terms">Terms</a>
+      </nav>
+
+      <div class="search">
+        <input placeholder="Search products..." aria-label="Search products">
+        <div class="cart">Cart (0)</div>
+      </div>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="active">
+      <div class="hero card">
+        <div class="slider" id="slider">
+          <div class="slides" id="slides">
+            <div class="slide">
+              <div class="copy">
+                <span class="kicker">New Arrivals</span>
+                <div class="headline">Soft Summer Dresses — Fresh Prints</div>
+                <div class="sub">Lightweight fabrics and flowy silhouettes perfect for warm days.</div>
+                <a class="cta" href="#shop">Shop Now</a>
+              </div>
+              <img src="banner1.png" alt="Summer Dress">
+            </div>
+
+            <div class="slide">
+              <div class="copy">
+                <span class="kicker">Festive Edit</span>
+                <div class="headline">Elegant Ethnic Wear</div>
+                <div class="sub">Handcrafted details with contemporary fits for every celebration.</div>
+                <a class="cta" href="#shop">Explore Collection</a>
+              </div>
+              <img src="banner2.png" alt="Ethnic Wear">
+            </div>
+
+            <div class="slide">
+              <div class="copy">
+                <span class="kicker">Limited Offer</span>
+                <div class="headline">Up to 40% Off on Selected Styles</div>
+                <div class="sub">Grab your favourites before they’re gone.</div>
+                <a class="cta" href="#shop">Grab Deal</a>
+              </div>
+              <img src="banner3.png" alt="Sale">
+            </div>
+          </div>
+
+          <div class="slider-controls">
+            <div class="dot-wrap" id="dots" aria-hidden="true"></div>
+          </div>
+        </div>
+
+        <!-- Featured categories -->
+        <div class="grid">
+          <div class="card">
+            <img class="cat-img" src="s2.png" alt="Tops">
+            <h3>Tops</h3>
+            <p class="sub">Casual and chic tops for everyday styling.</p>
+          </div>
+
+          <div class="card">
+            <img class="cat-img" src="s1.png" alt="Dresses">
+            <h3>Dresses</h3>
+            <p class="sub">Flowy dresses and midi styles for every occasion.</p>
+          </div>
+
+          <div class="card">
+            <img class="cat-img" src="s3.png" alt="Ethnic">
+            <h3>Ethnic</h3>
+            <p class="sub">Elegant ethnic wear with modern detailing.</p>
+          </div>
+        </div>
+
+        <!-- products preview -->
+        <div class="product-grid" aria-label="Featured Products">
+          <div class="product card">
+            <img src="p1.png" alt="Product 1">
+            <div class="pmeta"><strong>Floral Midi Dress</strong><div class="price">$799</div></div>
+          </div>
+
+          <div class="product card">
+            <img src="p2.png" alt="Product 2">
+            <div class="pmeta"><strong>Silk Kurta Set</strong><div class="price">$699</div></div>
+          </div>
+
+          <div class="product card">
+            <img src="p3.png" alt="Product 3">
+            <div class="pmeta"><strong>Ribbed Top</strong><div class="price">$129</div></div>
+          </div>
+
+          <div class="product card">
+            <img src="p4.png" alt="Product 4">
+            <div class="pmeta"><strong>Cotton Palazzo Pant </strong><div class="price">$99</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- two column: why choose us + newsletter -->
+      <div class="two-col">
+        <div class="card info">
+          <h3 class="page-title">Why Choose Women’s Fashion</h3>
+          <ul class="muted-list">
+            <li>Premium fabrics &amp; ethical production</li>
+            <li>Fast delivery across India</li>
+            <li>Secure payments &amp; easy returns</li>
+          </ul>
+        </div>
+
+        <div class="card newsletter">
+          <h3>Join our newsletter</h3>
+          <p class="sub">Get 10% off your first order and early access to sales.</p>
+          <div class="newsletter-row">
+            <input placeholder="Enter your email" aria-label="Email for newsletter">
+            <button class="btn-sub">Subscribe</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="tips card">
+        <h3>Helpful Tips</h3>
+        <p class="sub">Free exchanges within 15 days. Track your order via the tracking ID sent to your email. For fastest support, use our Contact page or WhatsApp.</p>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="card">
+  <h2 class="page-title">About Us</h2>
+
+<p class="muted">
+  At <strong>Women's Fashion</strong>, we believe fashion should be both stylish and empowering. Founded with the vision to make premium women’s clothing accessible for everyone, we offer trendy, comfortable, and high-quality outfits that help you express your true self with confidence.
+</p>
+
+<p class="muted">
+  Our design philosophy blends modern trends with timeless elegance — ensuring that every piece you wear from us feels special. From everyday essentials to statement outfits, we bring you fashion that fits your lifestyle.
+</p>
+
+<h3>Our Brand Values</h3>
+<ul class="muted-list">
+  <li><strong>Quality You Can Trust</strong> — Fabrics and craftsmanship designed to last.</li>
+  <li><strong>Comfort Meets Style</strong> — Look great while feeling free and confident.</li>
+  <li><strong>Sustainable Approach</strong> — Thoughtful materials and mindful production.</li>
+  <li><strong>Customer First</strong> — Your happiness and satisfaction come before anything else.</li>
+</ul>
+
+<p class="muted">
+  We believe fashion has the power to inspire, uplift, and transform — not just how you look, but how you feel. Every collection we launch is thoughtfully curated to match real women's needs — diverse sizes, flattering fits, and seasonal styles that celebrate individuality.
+</p>
+
+<p class="muted">
+  From design to delivery, we ensure a seamless shopping experience — secure payments, fast shipping, and hassle-free returns. Our dedicated support team is always here to help you pick your perfect outfit for any moment.
+</p>
+
+<h3>Why Choose Us?</h3>
+<ul class="muted-list">
+  <li>Exclusive styles updated weekly</li>
+  <li>Premium materials tested for comfort</li>
+  <li>Affordable luxury — without compromise</li>
+  <li>Worldwide shipping & easy exchanges</li>
+</ul>
+
+<p class="muted">
+  Whether you are dressing for work, a celebration, or a casual outing — <strong>Women's Fashion</strong> has something just for you. Be bold. Be stylish. Be unstoppable. 💖
+</p>
+
+<p class="muted">
+  Thank you for being a part of the <strong>Women's Fashion</strong> journey — we can’t wait to dress your dreams! ✨
+</p>
+
+</div>
+
+    </section>
+
+    <!-- Shop -->
+    <section id="shop">
+      <div class="card">
+        <h2 class="page-title">Shop</h2>
+
+        <div class="filters" role="toolbar" aria-label="product filters">
+          <button class="btn">All</button>
+          <button class="btn">Dresses</button>
+          <button class="btn">Tops</button>
+          <button class="btn">Ethnic</button>
+        </div>
+
+        <div class="product-grid">
+          <div class="product card"><img src="p5.png" alt="Product A"><div class="pmeta"><strong>Embroidered Kurti</strong><div class="price">$1,499</div></div></div>
+          <div class="product card"><img src="p1.png" alt="Product B"><div class="pmeta"><strong>Summer Maxi</strong><div class="price">$2,199</div></div></div>
+          <div class="product card"><img src="p6.png" alt="Product C"><div class="pmeta"><strong>Denim Jacket</strong><div class="price">$1,999</div></div></div>
+          <div class="product card"><img src="p7.png" alt="Product D"><div class="pmeta"><strong>Silk Scarf</strong><div class="price">$599</div></div></div>
+          <div class="product card"><img src="p8.png" alt="Product E"><div class="pmeta"><strong>Pleated Skirt</strong><div class="price">$1,349</div></div></div>
+          <div class="product card"><img src="p9.png" alt="Product F"><div class="pmeta"><strong>Wrap Dress</strong><div class="price">$2,699</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="card">
+        <h2 class="page-title">Contact Us</h2>
+        <p class="muted">Have questions? Send us a message and our support team will get back to you within 24 hours.</p>
+
+        <form class="contact-grid" onsubmit="event.preventDefault()">
+          <input placeholder="Your name" required>
+          <input placeholder="Email" type="email" required>
+          <input placeholder="Phone" type="tel">
+          <input placeholder="Subject">
+          <textarea placeholder="Message" rows="5" required></textarea>
+          <div class="form-actions"><button class="btn-primary" type="submit">Send Message</button></div>
+        </form>
+
+        <div class="contact-info">
+          <div><strong>Visit Us</strong><div class="muted">31 University Pl, New York, NY 10003, United States</div></div>
+          <div><strong>Phone</strong><div class="muted">+1(833) 712-4496</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Terms -->
+    <section id="terms">
+      <div class="card">
+        <h2 class="page-title">Terms & Conditions</h2>
+
+
+			<h3>1️⃣ General Information</h3>
+			<p>
+			This website is operated by <strong>Women's Fashion</strong>. Throughout the site, the terms “we”, 
+			“us”, and “our” refer to <strong>Women's Fashion</strong>. We offer this website, including information, 
+			products, and services, to you conditioned upon your acceptance of all terms, conditions, policies, and 
+			notices stated here.
+			</p>
+
+			<h3>2️⃣ Use of Our Website</h3>
+			<ul class="muted-list">
+			  <li>You must be at least 18 years old to use this website.</li>
+			  <li>You agree not to misuse any content or violate any applicable laws while using our site.</li>
+			  <li>Unauthorized use of website content, trademarks, images, or design is prohibited.</li>
+			</ul>
+
+			<h3>3️⃣ Product Information & Availability</h3>
+			<ul class="muted-list">
+			  <li>We strive to display accurate product colours and details, but they may vary by display screens.</li>
+			  <li>Product prices and availability are subject to change without notice.</li>
+			  <li>We reserve the right to limit or refuse any order for any reason.</li>
+			</ul>
+
+			<h3>4️⃣ Orders & Payments</h3>
+			<ul class="muted-list">
+			  <li>You confirm all checkout information is accurate (address, phone, payment details).</li>
+			  <li>Orders are subject to availability and acceptance.</li>
+			  <li>Payment must be completed using approved payment methods.</li>
+			</ul>
+
+			<h3>5️⃣ Shipping & Delivery</h3>
+			<ul class="muted-list">
+			  <li>Delivery timelines are estimates and may vary due to external factors.</li>
+			  <li>We are not responsible for courier delays, weather issues, or customs clearance.</li>
+			  <li>Delivery charges are shown during checkout.</li>
+			</ul>
+
+			<h3>6️⃣ Returns & Refunds</h3>
+			<ul class="muted-list">
+			  <li>Returns are accepted only as per our Return Policy.</li>
+			  <li>Some items may not be eligible .</li>
+			  <li>Refunds are issued after product quality inspection.</li>
+			</ul>
+
+			<h3>7️⃣ Cancellation Policy</h3>
+			<ul class="muted-list">
+			  <li>Orders can be cancelled only before dispatch.</li>
+			  <li>Once shipped, cancellations are not possible.</li>
+			</ul>
+
+			<h3>8️⃣ Intellectual Property Rights</h3>
+			<p class="muted">
+			All logos, text, images, and designs belong to <strong>Women's Fashion</strong>. Reproduction without written 
+			permission is prohibited.
+			</p>
+
+			<h3>9️⃣ Privacy & Data Protection</h3>
+			<p class="muted">
+			Your information is protected under our Privacy Policy, but no system is 100% secure.
+			</p>
+
+			<h3>🔟 Account Security</h3>
+			<ul class="muted-list">
+			  <li>You are responsible for keeping login details secure.</li>
+			  <li>Contact us immediately for unauthorized access concerns.</li>
+			</ul>
+
+			<h3>11️⃣ Limitation of Liability</h3>
+			<p class="muted">
+			We are not responsible for losses caused by unauthorized access, delayed delivery, technical issues, or 
+			reliance on website content.
+			</p>
+
+			<h3>12️⃣ Third-Party Links</h3>
+			<p class="muted">
+			We may link to external websites; we are not responsible for their content or services.
+			</p>
+
+			<h3>13️⃣ Changes to Terms</h3>
+			<p class="muted">
+			We may update these Terms anytime. Continued website use means you accept the changes.
+			</p>
+
+			<h3>14️⃣ Contact Information</h3>
+			<p class="muted">
+			📞 Phone: <strong>+1(833) 712-4496</strong><br>
+			</p>
+
+      </div>
+    </section>
+
+    <footer>© 2025 Women’s fashion — All Rights Reserved</footer>
+  </div>
+
+  <!-- floating call -->
+  <a class="float-call" href="tel:+1(833) 712-4496" aria-label="Call support">
+    <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="call">
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
